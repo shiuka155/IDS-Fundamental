@@ -1,0 +1,6 @@
+# Lesson learned
+- IDS plays critical role in detecting malicious traffic
+- Snort rules must be carefully written to avoid false positives
+- Understanding rule structure is essential for SOC analysts
+- Revision numbers (rev) are important for tracking rule updates
+- Proper rule analysis helps in identifying attack patterns
