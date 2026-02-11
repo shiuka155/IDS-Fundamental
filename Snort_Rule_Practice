@@ -9,3 +9,15 @@ As additional practice, I manually analyzed Snort rules to understand:
 Example:
 
 action protocol soure_ip source_port -> destination_ip destination_port
+
+## Example that I practice
+
+alert icmp any any -> 127.0.0.1 any (msg:"Loopback Ping Detected"; sid:100003; rev:1;)
+Breakdown:
+- Action: alert
+- Protocol: icmp
+- Source: any
+- Destination: any
+- Message: Loopback Ping Detected
+- SID: 100003
+- Revision: 1
