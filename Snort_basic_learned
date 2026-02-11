@@ -1,0 +1,15 @@
+# Snort Fundamental
+Snort is an open-source Network Instrusion Detection System (NIDS)
+
+## Important directory
+Configuration file are typically located in : /etc/snort
+
+## Core components
+- snort.conf (main configuration file)
+- rules/ directory (contains detection rules)
+- log directory (alerts and traffic logs)
+
+Snort can run in:
+- Sniffer mode
+- Packet logger mode
+- IDS mode
