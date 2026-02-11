@@ -1,0 +1,11 @@
+# Snort rule analysis practice (TryHackMe lab)
+As additional practice, I manually analyzed Snort rules to understand:
+- Rule header structure
+- Protocol type (TCP, UDP, ICMP)
+- Source and destination IP
+- SID (signature ID)
+- Revision number (rev)
+
+Example:
+
+action protocol soure_ip source_port -> destination_ip destination_port
