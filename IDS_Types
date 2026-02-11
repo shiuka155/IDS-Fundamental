@@ -1,0 +1,14 @@
+# Types of Instrusion Detection Systems
+
+## Network-based IDS (NIDS):
+- Monitors traffic across the network
+- Detect suspicious packets or traffic patterns
+- Example: Snort
+
+## Host-based IDS (HIDS):
+- Installed on individual system
+- Monitors file integrity, system logs, and processes
+
+## Hybrid IDS:
+- Combines both NIDS and HIDS capabilities
+- Provides broader visibility across systems and network
